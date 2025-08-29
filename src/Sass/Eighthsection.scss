@@ -1,0 +1,199 @@
+@media (min-width:930px) {
+
+
+    .eight-section {
+        background-color: black;
+
+        .eighth-content {
+            padding-top: 80px;
+
+            .products {
+                font-size: 19px;
+                padding-bottom: 20px;
+                color: rgb(139, 136, 136);
+            }
+
+            .new-arrivals {
+                padding-bottom: 50px;
+                color: white;
+
+                h2 {
+                    font-size: 39px;
+                    font-weight: 600;
+                }
+
+                a {
+                    padding: 12px 22px;
+                    border: 1px solid white;
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        background-color: #0D6EFD;
+                        color: white;
+                    }
+                }
+
+            }
+
+            .products {
+                display: flex;
+                justify-content: space-between;
+
+                .product-detail {
+                    padding-bottom: 40px;
+                    color: white;
+                    width: 261px;
+                    height: 564px;
+
+                    img {
+                        width: 261px;
+                        height: 392px;
+                        transition: transform 0.3s ease-in-out;
+
+                        &:hover {
+                            transform: perspective(1000px) rotateY(18deg);
+
+                        }
+
+                    }
+
+                    .stars {
+                        padding-top: 20px;
+
+                        .one {
+                            color: #FFC107;
+                            padding: 0px 4px;
+                        }
+
+                        .two {
+                            padding: 0px 5px;
+
+                        }
+                    }
+
+                    .Snapback {
+                        font-size: 19px;
+                        padding-top: 10px;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 550;
+                        color: rgb(130, 128, 128);
+                        padding-bottom: 40px;
+                    }
+
+                    .addtocart {
+                        padding: 10px 17px;
+                        font-size: 16px;
+                        color: white;
+                        text-decoration: none;
+                        background-color: #0D6EFD;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width:325px) and (max-width:530px) {
+    .eight-section {
+        background-color: black;
+
+        .eighth-content {
+            padding: 20px;
+            padding-top: 50px;
+
+            .products {
+                padding-bottom: 20px;
+                color: rgb(178, 177, 177);
+                text-align: center !important;
+                display: block !important;
+
+            }
+
+            .new-arrivals {
+                color: white;
+                padding-bottom: 30px;
+                text-align: center;
+                display: block !important;
+
+                h2 {
+                    font-size: 30px;
+                    font-weight: 600;
+                    padding-bottom: 30px;
+                }
+
+                a {
+                    padding: 8px 14px;
+                    border: 1px solid #f3f4f5;
+                    text-decoration: none;
+                    color: #f2f2f3;
+
+                    &:hover {
+                        background-color: #0D6EFD;
+                        color: white;
+                    }
+                }
+
+            }
+
+            .products {
+                .product-detail {
+                    padding-bottom: 40px;
+                    text-align: left;
+
+                    img {
+                        width: 355px;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            transform: scale(1.05);
+                            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+                        }
+                    }
+
+                    .stars {
+                        padding-top: 20px;
+
+                        .one {
+                            color: #FFC107;
+                            padding: 0px 4px;
+                        }
+
+                        .two {
+                            padding: 0px 5px;
+
+                        }
+                    }
+
+                    .Snapback {
+                        font-size: 20px;
+                        padding-top: 10px;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                        color: black;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 550;
+                        color: rgb(130, 128, 128);
+                        padding-bottom: 40px;
+                    }
+
+                    .addtocart {
+                        padding: 12px 22px;
+                        color: white;
+                        text-decoration: none;
+                        background-color: #0D6EFD;
+                    }
+                }
+            }
+        }
+    }
+}

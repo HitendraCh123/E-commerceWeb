@@ -1,0 +1,254 @@
+@media (min-width:930px) {
+
+    .header {
+        .upper-header {
+            background-color: #0D6EFD;
+
+            .top-header {
+                height: 24px;
+                color: white;
+
+                .social-media {
+                    width: 180px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    i {
+                        font-size: 14px;
+                    }
+                }
+
+                .holiday {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .bottom-header {
+            position: relative;
+            align-items: center;
+            align-content: center;
+            background-color: #FFFFFF;
+
+            .bag-icon {
+                color: #0D6EFD;
+            }
+
+            .template {
+                color: rgb(163, 160, 160);
+            }
+
+            .header-items {
+
+                .nav-list {
+                    .tabs {
+                        display: flex;
+                        font-size: 15px;
+                        font-weight: normal;
+                        justify-content: space-between;
+                        width: 630px;
+
+                        li {
+                            padding: 37px 0;
+                        }
+                    }
+                }
+
+                .link-nav {
+                    color: #606060;
+                    font-size: 16px;
+
+
+                }
+
+                .elements {
+                    padding: 20px 0;
+                }
+
+                .elements :hover+.elements-down {
+                    display: block !important;
+                }
+
+                .extra :hover+.elements-down {
+                    display: block !important;
+                }
+
+                .elements-down {
+                    position: absolute;
+                    top: 92px;
+                    left: 0;
+                    border: 1px solid rgb(222, 218, 218);
+                    padding: 0px 80px;
+                    z-index: 10;
+                    display: none;
+                    background-color: white;
+
+                    &:hover {
+                        display: block;
+                    }
+
+                    .elements-content {
+                        display: flex;
+
+                        .elements1 {
+                            width: 279px;
+                            height: 483px;
+                            align-items: center;
+                            border: 1px solid rgb(222, 218, 218);
+
+                            h2 {
+                                padding-top: 40px;
+                                padding-left: 30px;
+                                font-size: 17px;
+                                font-weight: 600;
+                            }
+
+                            ul {
+                                padding-left: 30px;
+                                padding-top: 20px;
+                                margin: 0 auto;
+                                color: rgb(129, 127, 127);
+
+                                li {
+                                    padding: 10px 0;
+                                }
+                            }
+
+                            .four-element {
+                                padding-left: 30px;
+
+                                .dark-div {
+                                    padding-top: 50px;
+                                    font-weight: 900;
+                                    font-size: 30px;
+                                }
+
+                                .Powerful {
+                                    width: 190px;
+                                    line-height: 30px;
+                                    font-size: 25px;
+                                    font-weight: 700;
+                                    padding-bottom: 10px;
+                                }
+
+                                p {
+                                    width: 190px;
+                                    padding-left: 30px;
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                    color: #797878;
+                                    padding-bottom: 40px;
+                                }
+
+                                a {
+                                    margin-left: 40px;
+                                    padding: 15px 20px;
+                                    text-decoration: none;
+                                    color: white;
+                                    border-radius: 23px;
+                                    font-size: 14px;
+                                    background-color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .icon {
+                    align-items: center;
+                    align-content: center;
+
+                    .header-icon {
+                        padding-left: 20px;
+                        display: flex;
+                        width: 120px;
+                        font-weight: 300;
+                        justify-content: space-between;
+
+
+                        .contact-icon {
+                            font-weight: 200;
+                            color: rgb(90, 89, 89);
+                            font-size: 19px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+@media (min-width:325px) and (max-width:530px) {
+    .header {
+        .upper-header {
+            display: none !important;            }
+        }
+
+        .bottom-header {
+            position: relative;
+            padding: 10px;
+            align-items: center;
+            align-content: center;
+            background-color: #FFFFFF;
+
+            .bag-icon {
+                color: #0D6EFD;
+            }
+
+            .template {
+                color: rgb(163, 160, 160);
+            }
+
+            .header-items {
+
+                .nav-list {
+                    .tabs {
+                        display: flex;
+                        font-size: 15px;
+                        font-weight: normal;
+                        justify-content: space-between;
+                        display: none;
+
+                        li {
+                            padding: 40px 0;
+                        }
+                    }
+                }
+
+                .link-nav {
+                    color: #606060;
+                    font-size: 16px;
+
+
+                }
+
+                .icon {
+                    align-items: center;
+                    align-content: center;
+                    padding-right: 20px;
+
+                    .header-icon {
+                        padding-left: 30px;
+                        display: flex;
+                        width: 120px;
+                        font-weight: 300;
+                        justify-content: space-between;
+
+
+                        .contact-icon {
+                            font-weight: 200;
+                            color: rgb(90, 89, 89);
+                            font-size: 19px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+

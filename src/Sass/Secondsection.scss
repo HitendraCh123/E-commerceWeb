@@ -1,0 +1,166 @@
+@media (min-width:930px) {
+
+
+    .section-second {
+        padding-top: 30px;
+        background-color: #F0F2F3;
+        z-index: 5;
+
+        .second-content {
+            .second-text {
+                padding-top: 15px;
+
+                h1 {
+                    font-size: 78px;
+                    font-weight: 700;
+                    font-family: sans-serif;
+                    line-height: 95px;
+                    padding-bottom: 25px;
+                }
+
+                .Mauris {
+                    line-height: 30px;
+                    font-weight: 400;
+                    width: 500px;
+                    font-size: 20px;
+                    color: rgb(97, 95, 95);
+                }
+
+                .features {
+                    padding-bottom: 72px;
+                    padding-top: 50px;
+
+                    .top-brand {
+                        align-items: center;
+                        padding-right: 15px;
+
+                        .brand-icon {
+                            color: #0D6EFD;
+                            font-size: 32px;
+                            padding-right: 12px;
+                        }
+
+                        .brand-section {
+
+                            h3 {
+                                font-size: 18px;
+                                font-weight: 600;
+                                padding-bottom: 8px;
+                            }
+
+                            .brand-para {
+                                color: rgb(96, 96, 96);
+                                font-weight: 300;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+
+                .explore-shop {
+                    padding: 18px 26px;
+                    background-color: #0D6EFD;
+                    text-decoration: none;
+                    color: white;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                }
+            }
+
+            .photo-section {
+                align-items: center;
+                text-align: center;
+                align-content: center;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+
+
+@media (min-width:325px) and (max-width:500px) {
+
+    .section-second {
+        background-color: #F0F2F3;
+        z-index: 5;
+
+        .second-content {
+            padding: 20px;
+            box-sizing: border-box;
+            display: block !important;
+            width: 375px;
+
+            .second-text {
+                h1 {
+                    width: 350px;
+                    font-size: 37px;
+                    font-weight: 700;
+                    font-family: sans-serif;
+                    line-height: 55px;
+                    padding-bottom: 18px;
+                }
+
+                .Mauris {
+                    line-height: 20px;
+                    font-weight: 400;
+                    width: 350px;
+                    font-size: 16px;
+                    color: rgb(97, 95, 95);
+                }
+
+                .features {
+                    padding-bottom: 52px;
+                    padding-top: 30px;
+                    width: 350px;
+                    .top-brand {
+                        align-items: center;
+                        padding-right: 10px;
+
+                        .brand-icon {
+                            color: #0D6EFD;
+                            font-size: 17px;
+                            padding-right: 5px;
+                        }
+
+                        .brand-section {
+
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 600;
+                                padding-bottom: 5px;
+                            }
+
+                            .brand-para {
+                                color: rgb(96, 96, 96);
+                                font-weight: 300;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .explore-shop {
+                    padding: 10px 10px;
+                    background-color: #0D6EFD;
+                    text-decoration: none;
+                    color: white;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                }
+            }
+
+            .photo-section {
+                width: 350px;
+                padding-top: 40px;
+                align-items: center;
+                text-align: center;
+                align-content: center;
+                padding-bottom: 30px;
+                img{
+                    width:300px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}

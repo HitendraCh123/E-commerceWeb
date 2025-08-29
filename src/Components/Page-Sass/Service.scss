@@ -1,0 +1,112 @@
+.service-section {
+    background-color: #FFC107;
+
+    .service-content {
+        position: relative;
+
+        .service-us {
+            padding-top: 150px;
+            padding-bottom: 200px;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 17px;
+                padding-right: 10px;
+            }
+
+            span {
+                font-size: 17px;
+                color: rgb(125, 127, 129);
+            }
+
+            h1 {
+                padding-top: 30px;
+                font-size: 78px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.service-cards {
+    position: absolute;
+    top: 410px;
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+        margin-right: 2.3vw;
+        margin-bottom: 12vh;
+        width: 20.5vw;
+        height: 41vh;
+        text-align: center;
+        align-content: center;
+        background-color: #F0F2F3;
+
+        .card-icon {
+            font-size: 47px;
+            padding-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            padding-bottom: 20px;
+        }
+
+        p {
+            color: rgb(118, 116, 116);
+        }
+
+    }
+}
+
+.your-personal-section {
+    padding-top: 250px;
+
+    .your-personal-content {
+        display: flex;
+        justify-content: space-between;
+
+        .personal-text {
+            padding: 50px 73px;
+            padding-right: 70px;
+            .mission {
+                color: #0D6EFD;
+                font-size: 17px;
+                font-weight: 700;
+                padding-bottom: 40px;
+            }
+            h2{
+                font-size: 54px;
+                font-weight: 700;
+                line-height: 70px;
+                padding-bottom: 30px;
+            }
+            .Integer{
+                color: #1b1c1c;
+                font-size: 19px;
+                font-weight: 200;
+                line-height: 31px;
+                padding-bottom: 20px;
+            }
+            .Elementum{
+                color: #97a0a0;
+                font-size: 19px;
+                line-height: 31px;
+                padding-bottom: 50px;
+            }
+            .more{
+                padding: 18px 20px;
+                font-size: 17px;
+                text-decoration: none;
+                color: #0D6EFD;
+                border-color: #0D6EFD;
+                border: 1px solid #0D6EFD;
+            }
+        }
+
+    }
+}

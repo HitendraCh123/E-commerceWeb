@@ -1,0 +1,67 @@
+@media (min-width:930px) {
+
+    .ninth-content {
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .benefits {
+            padding: 20px 0px;
+
+            .time {
+                padding-top: 40px;
+                padding-bottom: 30px;
+                color: #0D6EFD;
+                font-size: 40px;
+            }
+
+            h3 {
+                font-size: 19px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+
+            p {
+                font-size: 16px;
+                color: rgb(125, 126, 127);
+                width: 240px;
+                font-weight: normal;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media (min-width:325px) and (max-width:530px) {
+    .ninth-content {
+        padding-bottom: 40px;
+        padding: 20px;
+        display: block;
+        text-align: center;
+
+        .benefits {
+            width: 100%;
+            text-align: center;
+
+            .time {
+                padding-top: 40px;
+                padding-bottom: 30px;
+                color: #0D6EFD;
+                font-size: 40px;
+            }
+
+            h3 {
+                font-size: 19px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+
+            p {
+                font-size: 16px;
+                color: rgb(125, 126, 127);
+                font-weight: normal;
+                line-height: 24px;
+            }
+        }
+    }
+}

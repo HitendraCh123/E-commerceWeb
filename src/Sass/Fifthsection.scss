@@ -1,0 +1,193 @@
+@media (min-width:930px) {
+
+
+    .Fifth-section {
+        background-color: #FFC107;
+
+        .fifth-content {
+            padding: 68px 5px;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                transition: transform 0.4s ease;
+            }
+
+            img:hover {
+                transform: scaleX(-1);
+            }
+
+        }
+    }
+
+    .popular-product {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 40px;
+
+        .popular {
+            font-size: 16px;
+            font-weight: 700;
+            color: rgb(118, 116, 116);
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 46px;
+            font-weight: 700;
+            padding-bottom: 50px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-between;
+            text-align: left !important;
+
+            .product-detail {
+                padding-bottom: 40px;
+                width: 261px;
+                height: 564px;
+
+                img {
+                    width: 261px;
+                    height: 392px;
+                    transition: transform 0.3s ease;
+
+                    &:hover {
+                        transform: rotate(5deg);
+
+                    }
+                }
+
+                .stars {
+                    padding-top: 20px;
+
+                    .one {
+                        color: #FFC107;
+                        padding: 0px 4px;
+                    }
+
+                    .two {
+                        padding: 0px 5px;
+
+                    }
+                }
+
+                .Snapback {
+                    font-size: 19px;
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                    color: black;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 550;
+                    color: rgb(130, 128, 128);
+                    padding-bottom: 40px;
+                }
+
+                .addtocart {
+                    padding: 12px 22px;
+                    color: white;
+                    text-decoration: none;
+                    background-color: #0D6EFD;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:325px) and (max-width:500px) {
+
+    .Fifth-section {
+        background-color: #FFC107;
+
+        .fifth-content {
+            padding: 20px;
+            padding-bottom: 40px;
+            display: block;
+
+            img {
+                padding: 10px 0px;
+                transition: transform 0.4s ease;
+            }
+
+        }
+    }
+
+    .popular-product {
+        text-align: center;
+        padding: 20px;
+
+        .popular {
+            padding-top: 50px;
+            font-size: 15px;
+            font-weight: 700;
+            color: rgb(118, 116, 116);
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: 600;
+            padding-bottom: 50px;
+        }
+    }
+
+    .products {
+        .product-detail {
+            padding-bottom: 40px;
+            text-align: left;
+
+            img {
+                width: 355px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+                }
+            }
+
+            .stars {
+                padding-top: 20px;
+
+                .one {
+                    color: #FFC107;
+                    padding: 0px 4px;
+                }
+
+                .two {
+                    padding: 0px 5px;
+
+                }
+            }
+
+            .Snapback {
+                font-size: 20px;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                font-weight: 600;
+                color: black;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 550;
+                color: rgb(130, 128, 128);
+                padding-bottom: 40px;
+            }
+
+            .addtocart {
+                padding: 12px 22px;
+                color: white;
+                text-decoration: none;
+                background-color: #0D6EFD;
+            }
+        }
+    }
+
+}

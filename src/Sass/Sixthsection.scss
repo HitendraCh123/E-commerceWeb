@@ -1,0 +1,101 @@
+@media (min-width:930px) {
+
+
+    .sixth-section {
+        background-color: #F0F2F3;
+
+        .sixth-content {
+            padding: 40px 0px;
+
+            .popular-product {
+                text-align: center;
+                padding-top: 30px;
+                padding-bottom: 0;
+
+                .popular {
+                    font-size: 17px;
+                    font-weight: 700px;
+                    color: rgb(94, 92, 92);
+                    padding-bottom: 20px;
+                }
+
+                h2 {
+                    font-size: 46px;
+                    font-weight: 700;
+                    padding-bottom: 50px;
+                }
+            }
+
+            .customer-view {
+                display: flex;
+                justify-content: space-between;
+
+                .first-user {
+                    width: 387px;
+
+                    img {
+                        width: 340px;
+                        height: 231px;
+                    }
+
+                    .Lobortis {
+                        width: 350px;
+                        padding-top: 20px;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        padding-bottom: 20px;
+                    }
+
+                    .lorem-p {
+                        width: 300px;
+                        font-size: 16px;
+                        color: rgb(88, 88, 88);
+                        line-height: 26px;
+                        padding-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:325px) and (max-width:530px) {
+       .sixth-section {
+        background-color: #F0F2F3;
+
+    .customer-view {
+        padding: 20px;
+        display: block;
+
+        .first-user {
+            width: 387px;
+            padding-bottom: 40px;
+
+            img {
+                width: 340px;
+                height: 231px;
+            }
+
+            .Lobortis {
+                width: 350px;
+                padding-top: 20px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                padding-bottom: 20px;
+            }
+
+            .lorem-p {
+                width: 300px;
+                font-size: 16px;
+                color: rgb(88, 88, 88);
+                line-height: 26px;
+                padding-bottom: 25px;
+            }
+        }
+    }
+
+       }
+
+}

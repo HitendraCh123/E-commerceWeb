@@ -1,0 +1,43 @@
+@media (min-width:930px) {
+
+.tenth-section{
+    background-color: #f4f4f7;
+    .tenth-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .categery-sec{
+            display: flex;
+            justify-content: space-between;
+            .Category{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .Useful{
+                    font-size: 20px;
+                font-weight: 600;
+                padding-right: 243px;
+            }
+        }
+        .menu-list{
+            display: flex;
+            justify-content: space-between;
+            .dish{
+                padding-top: 28px;
+                .listtt{
+                    font-size: 16px;
+                    color: #6c7378;
+                    width: 190px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+}
+}
+
+@media (min-width:375px) and (max-width:530px) {
+.tenth-section{
+display: none;
+}
+
+}

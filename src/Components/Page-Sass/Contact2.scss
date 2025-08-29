@@ -1,0 +1,70 @@
+.contact-two-section {
+    .contact-two {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+
+        .imge-side {
+            position: absolute;
+            top: -70px;
+
+        }
+
+        .form {
+            padding-top: 85px;
+            padding-left: 50px;
+            position: absolute;
+            right: 0px;
+            z-index: 2;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 600;
+                padding-bottom: 30px;
+            }
+
+            p {
+                font-size: 16px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            input {
+                height: 30px;
+                width: 510px;
+                border: 1px solid silver;
+
+                &:placeholder-shown {
+                    font-size: 16px;
+                    padding-left: 10px;
+                }
+
+            }
+
+            .comment {
+                width: 510px;
+                height: 150px;
+
+                &:placeholder-shown {
+                    font-size: 16px;
+                    padding-left: 15px;
+                    padding-top: 10px;
+                }
+            }
+
+            .msg {
+                padding-top: 40px;
+                padding-bottom: 40px;
+
+                a {
+                    padding: 18px 25px;
+                    color: white;
+                    font-size: 18px;
+                    text-decoration: none;
+                    background-color: #0D6EFD;
+                }
+            }
+
+        }
+    }
+}
